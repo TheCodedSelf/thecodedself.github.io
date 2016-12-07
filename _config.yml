@@ -7,22 +7,23 @@
 
 # Site Settings
 var_name: &var_name "Keegan Rush"
-var_description: &var_description "A software developer from South Africa that likes building iOS apps, doing confusing things with Git, and attempting to find the Holy Grail of software development efficacy. I have a passion for improving, and I hope that I can help you to do the same."
+var_description: &var_description "A software developer that likes building iOS apps, doing confusing things with Git, and attempting to find the Holy Grail of software development efficacy."
+var_long_description: &var_long_description "A software developer from South Africa that likes building iOS apps, doing confusing things with Git, and attempting to find the Holy Grail of software development efficacy. I have a passion for improving, and I hope that I can help you to do the same."
 locale                   : "en"
 title                    : "The Coded Self"
 title_separator          : "-"
 name                     : *var_name
-description              : *var_description
+description              : "A software developer that likes building iOS apps, doing confusing things with Git, and attempting to find the Holy Grail of software development efficacy."
 url                      : "https://thecodedself.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "TheCodedSelf/thecodedself.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "TheCodedSelf/TheCodedSelf.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "https-thecodedself-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -69,19 +70,23 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/RushKeegan"
+    - "https://www.linkedin.com/in/keegan-rush-6977058a"
+    - "https://plus.google.com/115292254747709167083"
+    - "https://medium.com/@RushKeegan"
+    - "https://github.com/TheCodedSelf"
 
 # Analytics
-analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : "UA-63161942-3"
+#analytics:
+#  provider: "google-universal"
+#    tracking_id: "UA-63161942-3"
 
 
 # Site Author
 author:
   name             : *var_name
   avatar           : "/assets/images/Keegan Rush Software Developer.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : *var_description
+  bio              : "A software developer that likes building iOS apps, doing confusing things with Git, and attempting to find the Holy Grail of software development efficacy."
   location         : "Johannesburg, South Africa"
   email            : "thecodedself@gmail.com"
   uri              :
@@ -91,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "thecodedself"
+  github           : "TheCodedSelf"
   google_plus      :
   keybase          :
   instagram        :
@@ -243,6 +248,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
