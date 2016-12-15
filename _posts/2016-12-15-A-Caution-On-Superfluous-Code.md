@@ -6,6 +6,7 @@ If a developer doesn't properly understand the language or the library that is b
 For complex algorithms, you're losing the benefit of years and years of bug fixes and performance improvements to the implementation that's available to you through your toolset. Take the time to understand what is available to you. If it suits your needs, use it. Don't write superfluous code when you can write no code and gain the same value from your platform's SKDs. But, if you don't know what is available to you, you're doomed to repeat the bugs of the past.
 
 I recently came across the following Swift code:
+
 ```Swift
 import Foundation
 
@@ -41,6 +42,7 @@ class Foo {
 NotificationCenter is a class in Swift's Foundation library that implements the Observer pattern. You add an object as an observer for a particular notification and tell it what code to call when that notification is fired. The `Foo` class is registering for the `MyNotification` notification and asking NotificationCenter to call `notificationWasFired` when someone fires the notification.
 
 The developer added a flag to the class which he sets to true when the notification is registered, and he then removes the instance as an observer in `deinit`, as one should. All good, but developers that have used NotificationCenter will know that removing an observer is a safe operation. For instance, one could do the following:
+
 ```Swift
 NotificationCenter.removeObserver(self)
 NotificationCenter.removeObserver(self)
