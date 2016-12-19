@@ -3,7 +3,7 @@ Superfluous code is code that is written unnecessarily. It is code that has all 
 ##### Improper understanding of the toolset
 If a developer doesn't properly understand the language or the library that is being used, how can he be certain that the code he writes is suited to the task at hand? Oftentimes code is written that duplicates functionality included in the standard library. Now the same functionality exists in two different places: in your code base, and in your library. It has to be maintained twice. And tested twice. 
 
-For complex algorithms, you're losing the benefit of years and years of bug fixes and performance improvements to the implementation that's available to you through your toolset. Take the time to understand what is available to you. If it suits your needs, use it. Don't write superfluous code when you can write no code and gain the same value from your platform's SKDs. But, if you don't know what is available to you, you're doomed to repeat the bugs of the past.
+For complex algorithms, you're losing the benefit of years and years of bug fixes and performance improvements to the implementation that's available to you through your toolset. Take the time to understand what is available to you. If it suits your needs, use it. Don't write superfluous code when you can write no code and gain the same value from your platform's SDKs. But, if you don't know what is available to you, you're doomed to repeat the bugs of the past.
 
 I recently came across the following Swift code:
 
