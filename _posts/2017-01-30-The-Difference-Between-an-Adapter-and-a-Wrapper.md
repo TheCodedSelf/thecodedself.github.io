@@ -1,12 +1,12 @@
-The adapter pattern and the wrapper pattern each solve common but distinct problems. Their common usage and similarities in implementation, however, can lead to confusion. It also doesn't help that both seem to be thrown around as buzz words. The adapter pattern and wrapper pattern are two very useful tools and you can benefit from having them properly labeled in your toolbox.
+The adapter pattern and wrappers each solve common but distinct problems. Their common usage and similarities in implementation, however, can lead to confusion. Both terms seem to be used interchangeably when in fact there are a few key differences. The adapter pattern and wrappers are two very useful tools and you can benefit from having them properly labeled in your toolbox.
 
 ## Definition
 **Adapter:** An adapter allows code that has been designed for compatibility with one interface to be compatible with another. An adapter accomplishes this by transforming the input meant for Interface A into compatible input for Interface B. It is a bridge between two existing interfaces.
 
-**Wrapper:** A wrapper encapsulates and hides the complexity of other code. Third-party code can be hard to use due to the fact that the exposed interface is made to accommodate many use cases. When you are only concerned about a subset of the features or the exposed interface, or you find that using the library is hard or tedious, then what you need is to wrap it in a simpler, more constrained interface.
+**Wrapper:** A wrapper encapsulates and hides the complexity of other code. The most common use of a wrapper is in the [Facade pattern](https://en.wikipedia.org/wiki/Facade_pattern). Third-party code can be hard to use due to the fact that the exposed interface is made to accommodate many use cases. When you are only concerned about a subset of the features or the exposed interface, or you find that using the library is hard or tedious, then what you need is to wrap it in a simpler, more constrained interface.
 
 ## Differences
-- **Intention:** The end product may look similar but the intention is different. A wrapper is intended to simplify an interface to an external library. An adapter is intended to bridge the disconnect between one interface and another. You may look at a new library that you wish to use and write a wrapper to simplify and streamline its use. You may look at an interface, internal or external, that your existing code needs to conform to, and write an adapter to do that.
+- **Intention:** The end product may look similar but the intention is different. A wrapper as used in the Facade pattern is intended to simplify an interface to an external library. An adapter is intended to bridge the disconnect between one interface and another. You may look at a new library that you wish to use and write a wrapper to simplify and streamline its use. You may look at an interface, internal or external, that your existing code needs to conform to, and write an adapter to do that.
 
 - **Composition:** A wrapper contains another object and wraps around it. It has the the sole responsibility of moving data to and from the wrapped object. An adapter doesn't necessarily contain or simplify an object, although this can be a secondary benefit of using adapters. An adapter transforms input to make it match the input required by another interface. It adapts input to that other interface.
 
@@ -40,7 +40,7 @@ Now that you've defined the interface that the rest of your code will interact w
 ## Summary
 Being cognizant of what problem you are trying to solve and what pattern you are using to solve that problem will help you to keep your code clean and focused on a singular purpose.
 
-Use the wrapper pattern to simplify code, encapsulate third-party dependencies, and eliminate repetition.
+Use wrappers to simplify code, encapsulate third-party dependencies, and eliminate repetition.
 
 Use the adapter pattern to allow yourself to swap out third-party dependencies at will by interacting with your own interface, and then making adapters that map from your own interface to the third party code.
 
