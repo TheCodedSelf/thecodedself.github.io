@@ -8,6 +8,7 @@ The commits that don't have my image were made with my name but with an **unknow
 
 ## How to assume multiple identities
 Git commits have an author with a name and an email. Run `git log` in a repository you've committed to recently to see some of the metadata of your commits:
+
 ```
 commit bd294498cbd5c67b51096518ce62c9204068be2c
 Author: Bruce Wayne <bruce.wayne@wayneenterprises.com>
@@ -17,6 +18,7 @@ Date:   Tue Feb 14 19:58:34 2017 +0200
 ```
 
 Git uses the user name and email set in your global .gitconfig file, located at `~/.gitconfig` or `C:\Users\MyUser\.gitconfig`. The `[user]` block sets the author name and email address for all commits. You can set it by manually editing the file:
+
 ```
 $ vim ~/.gitconfig
 ```
@@ -28,16 +30,19 @@ $ vim ~/.gitconfig
 ```
 
 Git also provides a command to update global settings.
+
 ```
 $ git config --global user.name "Bruce Wayne"
 $ git config --global user.email bruce.wayne@wayneenterprises.com
 ```
+
 This modifies the global .gitconfig for you.
 
 ### Specifying identities at the repository level
 So now that you've created your global identity, how about adding a different one for a particular repository? Each repository has its own config file in which you can override the global configurations - it's located in the hidden .git folder. Take a look at `.git/config` inside your repository.
 
 To create your repository-specific secret identity, edit the file and add a user config to override the global one:
+
 ```
 $ vim ~/.gitconfig
 ```
@@ -68,6 +73,7 @@ Date:   Wed Feb 15 04:53:57 2017 +0200
 
 ## That's too late for me, I've already committed with the wrong author email!
 Sometimes you make a mistake, like this one here:
+
 ```
 Author: Bruce Wayne <bruce.wayne@wayneenterprises.com>
 Date:   Thurs Feb 16 19:21:35 2017 +0200
@@ -79,6 +85,7 @@ With a commit author like that, Batman's secret identity is surely at risk of be
 
 ### Amend the commit
 If the commit that you need to change is the most recent commit, you can easily change it like this:
+
 ```
 $ git commit --amend --author="Author Name <authoremail@example.com>"
 ```
@@ -86,12 +93,14 @@ $ git commit --amend --author="Author Name <authoremail@example.com>"
 `git commit --amend` allows you to change the commit message if you choose to, and the `--author="Author Name <authoremail@example.com>"` part sets the author name and email to whatever you've specified.
 
 You can use it to modify the previous commit to the following:
+
 ```
 Author: The Dark Knight <batman@justiceleague.com>
 Date:   Thurs Feb 16 19:21:35 2017 +0200
 
     Fight crime in downtown Gotham
 ```
+
 Even Batman needs a helping hand sometimes.
 ### Interactive rebase
 One of my favourite tricks, the interactive rebase, can be used to commits other than the most recent one. [This tutorial](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html) should get you up to speed with how to do a rebase.
@@ -103,6 +112,7 @@ $ git rebase -i head~4
 ```
 
 We've started an interactive rebase. We'll be presented with a text editor containing the following:
+
 ```
 pick fe79802 Buy new batmobile
 pick 04a7c9c Dent new batmobile
@@ -130,10 +140,13 @@ pick 1d12e8c Defuse bomb before detonation
 ```
 
 We attended the Policeman's Ball under Batman's identity, but it should really be Bruce Wayne. On the third line, change `pick` to `edit`.
+
 ```
 edit 2a826b2 Attend Policeman's Ball
 ```
+
 Now we can amend the commit to set the correct author.
+
 ```
 $ git commit --amend --author="Bruce Wayne <bruce.wayne@wayneenterprises.com>"
 ```
