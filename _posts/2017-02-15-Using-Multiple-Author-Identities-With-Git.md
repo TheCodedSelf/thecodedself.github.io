@@ -83,7 +83,10 @@ Date:   Thurs Feb 16 19:21:35 2017 +0200
 
 With a commit author like that, Batman's secret identity is surely at risk of being compromised. Luckily, you still have the opportunity to modify this commit before you push it upstream.
 
-### Amend the commit
+#### Warning
+All of the suggestions listed below **modify your git history**. This means that if you've already pushed your changes upstream, you'll have to [force push](http://movingfast.io/articles/git-force-pushing/) your changes. Even worse, if the changes are upstream and another developer has been working on that branch with the commits that you're about to change, things can get really tricky. The safest decision is to refrain from modifying commits that are already publicly visible to other developers.
+
+### Amend the latest commit
 If the commit that you need to change is the most recent commit, you can easily change it like this:
 
 ```
