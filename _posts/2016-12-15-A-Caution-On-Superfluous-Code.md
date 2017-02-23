@@ -1,3 +1,7 @@
+> The line of code that the developer can write the fastest, the line of code that the developer can maintain the cheapest, and the line of code that never breaks for the user, is the line of code that the developer never had to write.
+
+\- *Steve Jobs*
+
 Superfluous code is code that is written unnecessarily. It is code that has all the added complexity of valuable code, but it adds no value of its own. If you were to remove it, the product would behave exactly the same. I can think of a few causes of superfluous code:
 
 ##### Improper understanding of the toolset
