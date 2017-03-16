@@ -1,3 +1,6 @@
+---
+title:  "Android Development Through the Eyes of an iOS Developer"
+---
 I’ve recently dipped my toes into Android development to see the differences in environment and tooling as compared to iOS development. While I haven’t done much as of yet, I hope to ship some Android apps in the future alongside some iOS ones. I figured it was time to understand the platform so that I can better relate to the woes of Android development. 
 
 ### Disclaimer
