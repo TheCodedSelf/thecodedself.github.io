@@ -118,7 +118,7 @@ That's our entire server done!
 
 ### Up and running
 
-Here's a link to the completed server: [https://github.com/TheCodedSelf/Swift_Image_Server](https://github.com/TheCodedSelf/Swift_Image_Server)
+Here's a link to the completed server: [https://github.com/TheCodedSelf/SwiftImageServer](https://github.com/TheCodedSelf/SwiftImageServer)
 
 Run the executable target. That's the one with the Matrix-style computer screen, not the yellow lunchbox.
 
@@ -128,7 +128,7 @@ Keep that running, and we'll build the iOS app.
 
 # The client app
 
-The complete example code for the iOS app is available [on my Github](https://github.com/thecodedself/LatestImageRetrieverApp).
+The complete example code for the iOS app is available [on my Github](https://github.com/thecodedself/LatestImageRetriever).
 
 ### Create the project
 
@@ -244,7 +244,7 @@ When the user taps on the new button we'll call the `latestImage` endpoint to re
     }
 ```
 
-Looking good. You completed ViewController should look like this one: [](https://github.com/TheCodedSelf/LatestImageRetriever/blob/master/LatestImageRetriever/ViewController.swift)
+Looking good. You completed ViewController should look like this one: [https://github.com/TheCodedSelf/LatestImageRetriever/blob/master/LatestImageRetriever/ViewController.swift](https://github.com/TheCodedSelf/LatestImageRetriever/blob/master/LatestImageRetriever/ViewController.swift)
 
 # A Finished Product
 
