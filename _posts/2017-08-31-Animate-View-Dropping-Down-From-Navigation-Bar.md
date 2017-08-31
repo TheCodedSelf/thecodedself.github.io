@@ -1,5 +1,6 @@
 ---
 title: "iOS: Animating your own toast view"
+permalink: /iOS-Toast-View-Animation/
 ---
 
 A toast view is a small, short-lived popup provides a small bite of information (see what I did there?) to the user. It's an Android paradigm, but if you're working on an iOS app that has an Android component, the chances are high that you have been or will be asked to implement one at some point. So you might as well learn how to make one simply without having to pull in a 3rd-party dependency, right? Well, let's get started then.
