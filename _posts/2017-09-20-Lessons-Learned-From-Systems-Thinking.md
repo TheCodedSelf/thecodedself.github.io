@@ -3,7 +3,7 @@ title: "Lessons learned from Systems Thinking"
 permalink: /systems-thinking/
 ---
 
-I was lucky enough to attend my first meetup in Poland this month: ![Agile Poznan](https://www.meetup.com/Agile-Poznan/events/242364938/). The talk was on ![Systems Thinking](http://managedagile.com/what-is-systems-thinking-and-why-is-it-important/), a topic that bored me in college but fascinated me when I entered the real world. Applying systems thinking can reveal the origins behind events and behaviors we see every day. Using this clarity can make you a better software developer, and a better asset to your organisation in general.  
+I was lucky enough to attend my first meetup in Poland this month: [Agile Poznan](https://www.meetup.com/Agile-Poznan/events/242364938/). The talk was on [Systems Thinking](http://managedagile.com/what-is-systems-thinking-and-why-is-it-important/), a topic that bored me in college but fascinated me when I entered the real world. Applying systems thinking can reveal the origins behind events and behaviors we see every day. Using this clarity can make you a better software developer, and a better asset to your organisation in general. 
 
 Here are some of my insights from the meetup.
 
@@ -19,7 +19,7 @@ A surprising majority of problems can be mitigated when you stop blaming the per
 
 Code reviews used to occasionally frustrate me before I came to this way of thinking. I'd find myself reiterating the same comments repeatedly. I want to learn, and I want to help others to learn, but learning gets diluted when we are forced to focus on miniscule issues like styling in a code review and miss the real opportunities for growth.
 
-I see using a tool like ![Danger](http://danger.systems/ruby/), or adding any linting or code formatting to your development pipeline, as a great application of systems thinking. You're building safeguards in the system that will allow you to focus on more important and nuanced issues.
+I see using a tool like [Danger](http://danger.systems/ruby/), or adding any linting or code formatting to your development pipeline, as a great application of systems thinking. You're building safeguards in the system that will allow you to focus on more important and nuanced issues.
 
 ## The performance of an organisation depends on the quality of systems, not of individuals.
 
