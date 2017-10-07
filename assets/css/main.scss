@@ -31,6 +31,16 @@
 /* Magnific Popup - responsive lightbox */
 @import "vendor/magnific-popup/magnific-popup"; // Magnific Popup
 
+ul#menu {
+    display:flex;
+    justify-content:center;
+}
+
+ul#menu li {
+    display:inline;
+    margin-right:40px;
+}
+
 /* Susy - grid mixins */
 $susy: (
   columns: 12,
