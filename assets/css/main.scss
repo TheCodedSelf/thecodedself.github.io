@@ -31,6 +31,11 @@
 /* Magnific Popup - responsive lightbox */
 @import "vendor/magnific-popup/magnific-popup"; // Magnific Popup
 
+.rightAlignedHeader {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 ul#menu {
     display:flex;
     justify-content:center;
