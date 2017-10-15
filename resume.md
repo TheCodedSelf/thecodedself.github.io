@@ -33,3 +33,14 @@ I worked to improve our development environment by writing build and deployment 
 <p style="clear:both;">
 While I was studying for my degree, I worked at K2 to gain experience. I worked on a Silverlight application in C#. Working on UI and user experience tasks gave me keen attention to detail while I also developed skills in troubleshooting and debugging.
 </p>
+
+# Education
+
+![Bachelor of Science in Computer Systems at Heriot-Watt University]({{ site.url }}/assets/images/Resume/Heriot-WattLogo.png){: .align-left}
+<h2 class="rightAlignedHeader">Heriot-Watt University</h2>
+<h4 class="rightAlignedHeader">Bachelor of Science in Computer Systems (2014)</h4>
+<p style="clear:both;">
+My degree was obtained through Heriot-Watt University based in Edinburgh, Scotland. I attended remotely via <a href="https://www.cti.ac.za/">CTI Education Group</a>.
+</p>
+
+Some of my favourite courses were Software Engineering, Database Design Concepts, Operations Management, Knowledge Management, Program Design, and Hardware Essentials.
