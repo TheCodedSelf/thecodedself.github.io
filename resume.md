@@ -5,6 +5,10 @@ permalink: /resume/
 header_alignment: center
 ---
 
+<div style="text-align:center"> 
+  <a href="https://gitlab.com/keeganrush/CV/raw/master/Keegan%20Rush%20CV.pdf">Download PDF</a>
+</div>
+
 # Work History
 
 ![Intermediate Software Engineer at Entelect]({{ site.url }}/assets/images/Resume/EntelectLogo.jpg){: .align-left}
