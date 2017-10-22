@@ -2,6 +2,10 @@
 layout: single
 permalink: /work-with-me/
 header_alignment: center
+sidebar: true
+author_profile: false
+header:
+  image: assets/images/WorkWithMe/header.png
 ---
 # Collaborate with me and I'll build the app that you need
 
@@ -18,12 +22,6 @@ My main objective is to help you ship the right product at the right time.
 ### A thorough attention to detail
 
 It's the little things that separate an okay app from a great one. It needs to be clean, quick, and consistent. All the time. My work isn't done until everything fits that description.
-
-### Testimonials
-
-*"An all-round asset ... his skills are essential to any software development company."* - Uteshlen Nadesan
-
-*"Hardworking, learns at an amazing pace, and most importantly, he has a great attitude!"* - Shaun Havelaar
 
 # Get in touch
 
