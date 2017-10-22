@@ -4,10 +4,11 @@ permalink: /work-with-me/
 header_alignment: center
 sidebar: true
 author_profile: false
+header_alignment: center
+title: App development as it should be
 header:
   image: assets/images/WorkWithMe/header.png
 ---
-# Collaborate with me and I'll build the app that you need
 
 Are you looking for a professional software developer that can give you high-quality work when you need it? Work with me and I'll transform your idea into a smooth, bug-free, working application.
 
