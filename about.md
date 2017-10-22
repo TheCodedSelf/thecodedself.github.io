@@ -5,7 +5,6 @@ permalink: /about/
 header_alignment: center
 ---
 
-
 <p style="margin-top:20px;text-align:center"><img alt="Keegan Rush iOS Software Developer" src="{{ site.url }}/assets/images/Keegan Rush Software Developer.png" height="300px" width="300px"/></p>
 
 I'm a software developer, currently specialising in **mobile app development**. I'm from Johannesburg, South Africa, and currently living in Poland, where I'm **working remotely** for [Entelect](http://www.entelect.co.za/). I'm lucky enough to get to work on iOS apps and provide guidance to other developers looking to get into Swift and iOS.

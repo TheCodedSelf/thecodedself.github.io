@@ -50,4 +50,25 @@
     padding-right: 2em;
     font-weight: 700;
   }
+
+  &--hl {
+    background-color:#FFA000;
+    border-radius: 5px;
+
+    a { 
+      padding-left: 4px !important;
+      padding-right: 4px !important;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      color: white !important;
+    }
+
+    a:hover {
+      background: #FFC107 !important;
+    }
+
+    a:before {
+      height: 0px !important;
+    }
+  }
 }

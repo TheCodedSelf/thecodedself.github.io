@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Work With Me"
+    url: /work-with-me
   - title: "About"
     url: /about
   - title: "Portfolio"
