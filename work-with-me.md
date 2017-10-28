@@ -24,6 +24,29 @@ My main objective is to help you ship the right product at the right time.
 
 It's the little things that separate an okay app from a great one. It needs to be clean, quick, and consistent. All the time. My work isn't done until everything fits that description.
 
+### Testimonials
+
+<div style="display:flex;">
+    <div>
+<img class="img-circle" src="{{ site.url }}/assets/images/WorkWithMe/uteshlen.jpg"/>
+    </div>
+    <div style="padding-left:10px;">
+<em>"An all-round asset ... his skills are essential to any software development company."</em> - Uteshlen Nadesan
+    </div>
+</div>
+<br/>
+
+<div style="display:flex;">
+    <div>
+<img class="img-circle" style="margin-right:10px;" src="{{ site.url }}/assets/images/WorkWithMe/shaun.jpg"/>
+    </div>
+    <div style="padding-left:10px;">
+<em>"Hardworking, learns at an amazing pace, and most importantly, he has a great attitude!"</em> - Shaun Havelaar
+    </div>
+</div>
+
+<br/>
+
 # Get in touch
 
 Send an email to [keeganrush@gmail.com](mailto:keeganrush@gmail.com) and let's chat about what you need and how we can work together to make it a reality.
