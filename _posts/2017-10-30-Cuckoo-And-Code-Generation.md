@@ -32,7 +32,7 @@ Most programming languages use reflection to dynamically perform things that we 
 
 As of yet, this isn't an easy feat in Swift. The Swift language shuns dynamic behaviour and encourages safer methods. Code generation, on the other hand, fits very well with Swift's type safety. You have code that can be read by a human and verified by a compiler. 
 
-It felt weird to me at first. I may not have written the boilerplate, but it's still there. Written by a tool and hidden in the background. But this seems to be the way forward in a language like Swift. Frameworks like ![Sourcery](https://github.com/krzysztofzablocki/Sourcery) and ![SwiftGen](https://github.com/SwiftGen/SwiftGen) let you adopt code generation for these tasks that might otherwise be done via reflection.
+It felt weird to me at first. I may not have written the boilerplate, but it's still there. Written by a tool and hidden in the background. But this seems to be the way forward in a language like Swift. Frameworks like [Sourcery](https://github.com/krzysztofzablocki/Sourcery) and [SwiftGen](https://github.com/SwiftGen/SwiftGen) let you adopt code generation for these tasks that might otherwise be done via reflection.
 
 The lack of reflection and strong type safety mean that code generation is the new go-to when it comes to reducing your time spent on monotonous tasks and more time working on the important parts of your app.
 
