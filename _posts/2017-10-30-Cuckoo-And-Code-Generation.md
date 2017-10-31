@@ -3,6 +3,9 @@ permalink: /cuckoo-and-code-generation/
 title: "Staying Sane with Cuckoo and Code Generation"
 ---
 
+**Please note** that this post won't go over the basics of Cuckoo, as the [README](https://github.com/Brightify/Cuckoo/blob/master/README.md) provides a great introduction to the library.
+{: .notice--info}
+
 Do you write unit tests? You should. Writing mocks for my tests seemed to be a lot easier in Objective-C. [OCMock](http://ocmock.org/) makes great use of Objective-C's dynamic nature and it makes mocking a breeze. However, the OCMock website has [this to say](http://ocmock.org/swift/):
 
 ![No mocking frameworks for Swift]({{ site.url }}/assets/images/Cuckoo/ocmock-swift-comment.png){: .align-center}
@@ -37,7 +40,7 @@ Cuckoo's use of code generation has numerous benefits over the reflection approa
 
 # Using Cuckoo without going nuts
 
-I won't go over the basics of Cuckoo, as the [README](https://github.com/Brightify/Cuckoo/blob/master/README.md) does a great job of explaining that, and it's updated frequently for new releases. 
+Cuckoo has become easier to use with a fair bit of trial and error. Here are some insights that I've learned so far.
 
 ## Get comfortable with ParameterMatchers
 
@@ -104,7 +107,7 @@ You can save yourself some time by avoiding my stupid mistake: Make sure that th
 
 ![Run Cuckoo before compiling tests]({{ site.url }}/assets/images/Cuckoo/RunCuckoo.png)
 
-## Unclear compilation errors
+## Break down unclear compilation errors
 
 Cuckoo can throw some rather cryptic compilation errors when things aren't right. Cuckoo has also been known to break the Swift compiler at times and give it a segmentation fault, in which case you won't get the helpful red text on the line that is causing the breakage. Make sure to look carefully at any compiler errors and read the messages to pinpoint your problem.
 
@@ -173,6 +176,8 @@ ThatOtherObjectThatBreaksMyBuild" \
 "$INPUT_DIR/FileName1.swift" \
 "$INPUT_DIR/FileName2.swift"
 ```
+
+The `--exclude` option is a relatively new addition that solved quite a few problems that would otherwise cause a need to revert to hand-rolled mocks. Let that be a good lesson to read the documentation frequently.
 
 
 # Use it when it makes sense
