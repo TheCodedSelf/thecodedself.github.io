@@ -24,7 +24,7 @@ When you're writing a lot of code and all of the tests that should come with it,
 
 # Then, I was introduced to Cuckoo.
 
-![Cuckoo](https://github.com/Brightify/Cuckoo) is a mocking framework for Swift that uses code generation to create the boilerplate that you'd otherwise be writing yourself. It comes with a lot of functionality that I think would be far too tedious and repetitive to do on your own. It also ensures consistency, which is something that I've found to be sorely lacking in the world of hand-rolled mocks.
+[Cuckoo](https://github.com/Brightify/Cuckoo) is a mocking framework for Swift that uses code generation to create the boilerplate that you'd otherwise be writing yourself. It comes with a lot of functionality that I think would be far too tedious and repetitive to do on your own. It also ensures consistency, which is something that I've found to be sorely lacking in the world of hand-rolled mocks.
 
 # Code Generation versus Reflection
 
