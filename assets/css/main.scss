@@ -50,6 +50,44 @@ ul#menu li {
     margin-right:40px;
 }
 
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skills-list li {
+    float: left;
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: $skill-color;
+    color: white;
+}
+
+.skill-5 {
+    background-color: $skill-color !important;
+  }
+
+.skill-4 {
+    background-color: lighten($skill-color, 10%) !important;
+  }
+
+.skill-3 {
+    background-color: lighten($skill-color, 20%) !important;
+  }
+
+.skill-2 {
+    background-color: lighten($skill-color, 30%) !important;
+    text-shadow: 1px 1px 1px $gray;
+  }
+
+.skill-1 {
+    background-color: lighten($skill-color, 40%) !important;
+    text-shadow: 1px 1px 1px $gray;
+  }
+
 /* Susy - grid mixins */
 $susy: (
   columns: 12,

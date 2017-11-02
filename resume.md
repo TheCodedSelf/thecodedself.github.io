@@ -8,6 +8,35 @@ header_alignment: center
 <div style="text-align:center"> 
   <a href="https://gitlab.com/keeganrush/CV/raw/master/Keegan%20Rush%20CV.pdf">Download PDF</a>
 </div>
+<br/>
+# Skills
+
+<div>
+  <ul class="skills-list">
+    <li class="skill-5">iOS Development</li>
+    <li class="skill-5">Swift</li>
+    <li class="skill-5">Unit Testing</li>
+    <li class="skill-5">Objective-C</li>
+    <li class="skill-5">RxSwift</li>
+    <li class="skill-5">Code Reviews</li>
+    <li class="skill-5">Bamboo CI</li>
+    <li class="skill-5">Jekyll Static Site Generation</li>
+    <li class="skill-5">Jira</li>
+    <li class="skill-4">Architecture Design</li>
+    <li class="skill-4">Functional Programming</li>
+    <li class="skill-4">Core Data</li>
+    <li class="skill-4">UI Testing</li>
+    <li class="skill-4">Mentoring and Teaching</li>
+    <li class="skill-3">C#</li>
+    <li class="skill-3">Python</li>
+    <li class="skill-3">Bash</li>
+    <li class="skill-3">LaTex</li>
+    <li class="skill-3">HTML/CSS</li>
+    <li class="skill-2">Android Development</li>
+    <li class="skill-2">Java</li>
+    <li class="skill-1">Javascript</li>
+  </ul>
+</div>
 
 # Work History
 
