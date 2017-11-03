@@ -27,12 +27,12 @@ header_alignment: center
     <li class="skill-4">Core Data</li>
     <li class="skill-4">UI Testing</li>
     <li class="skill-4">Mentoring and Teaching</li>
+    <li class="skill-3">Android Development</li>
     <li class="skill-3">C#</li>
     <li class="skill-3">Python</li>
     <li class="skill-3">Bash</li>
     <li class="skill-3">LaTex</li>
     <li class="skill-3">HTML/CSS</li>
-    <li class="skill-2">Android Development</li>
     <li class="skill-2">Java</li>
     <li class="skill-1">Javascript</li>
   </ul>

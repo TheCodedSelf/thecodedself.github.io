@@ -66,6 +66,12 @@
           Twitter
         </a></li>
       {% endif %}
+      {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}" itemprop="sameAs">
+          <i class="fa fa-fw fa-github" aria-hidden="true"></i> 
+          Github
+        </a></li>
+      {% endif %}
       {% if author.facebook %}
         <li><a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs">
           <i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> 
@@ -106,12 +112,6 @@
         <li><a href="https://bitbucket.org/{{ author.bitbucket }}" itemprop="sameAs">
           <i class="fa fa-fw fa-bitbucket" aria-hidden="true"></i> 
           Bitbucket
-        </a></li>
-      {% endif %}
-      {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}" itemprop="sameAs">
-          <i class="fa fa-fw fa-github" aria-hidden="true"></i> 
-          Github
         </a></li>
       {% endif %}
       {% if author.stackoverflow %}
