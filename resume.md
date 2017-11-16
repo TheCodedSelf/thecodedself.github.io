@@ -27,6 +27,7 @@ header_alignment: center
     <li class="skill-4">Core Data</li>
     <li class="skill-4">UI Testing</li>
     <li class="skill-4">Mentoring and Teaching</li>
+    <li class="skill-4">OAuth 2.0</li>
     <li class="skill-3">Android Development</li>
     <li class="skill-3">C#</li>
     <li class="skill-3">Python</li>
