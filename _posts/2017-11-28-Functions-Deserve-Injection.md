@@ -5,9 +5,9 @@ title: "Functions Deserve Injection, Too"
 
 Lately, I've been taking advantage of Swift's functional abilities where it makes sense to help me write concise and clear code that's easy to test. I'd like to share one technique that has helped me to eliminate repetition and breakages of encapsulation in tests: **function injection**.
 
-As a code base evolves over time, a lot of small, focused utilities are added. Business rules are clearly defined and abstracted away, helper classes are created to cut down on the code repetition. 
+In traditional [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection), an object that is dependended on is passed to the method that depends on it. Function injection is my name for following the same approach when your function consumes another function.
 
-Here's one small utility function that I use quite often:
+As a code base evolves over time, a lot of small, focused utilities are added. Here's one small utility function that I use quite often:
 
 ```
 extension String {
@@ -141,10 +141,16 @@ Now, when testing, we don't need to check every permutation of the isNonEmptyFun
 
 From four tests down to two! The tests are now focused solely on the purpose of the greet function and no longer leak the implementation of isNonEmpty.
 
+A lot of developers tend to be quite good at following dependency injection when depending on another class, but when the dependence is a function, it can sometimes be overlooked. **Function injection** provides the same benefits to testing and composability of regular dependency injection.
+
+This approach can be followed whenever one function depends on the output of another.  You can use it when querying important business logic, to dictate the output of utility functions, or to set the expected behavior of standard library functions.
+
 ## Please Share Your Thoughts
 
-I've put the complete example code in a Playground [on my GitHub account](https://github.com/TheCodedSelf/FunctionInjection). I like how straightforward testing is when following this approach in the right scenario. I do feel that it can sometimes add complexity to the production code solely for the sake of the tests, which is a caveat that means I use this pattern somewhat sparingly and only when it makes sense. The most common use case for me is small utility functions that build on other utility functions.
+I like how straightforward testing can be when following this approach. The most common use case for me is small utility functions that build on other utility functions. 
 
-What do you think? Do you have any alternatives? Let me know!  
+However, make sure to use it only when it makes sense. Sometimes the right thing to do is to create a new class behind a new protocol, and then inject that protocol instead. 
+
+I've put the complete example code in a Playground [on my GitHub account](https://github.com/TheCodedSelf/FunctionInjection) if you'd like to see more. What do you think? Do you have any alternatives? Let me know.
 
 Have fun, and happy Swifting!
