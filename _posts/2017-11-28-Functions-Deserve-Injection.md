@@ -105,7 +105,7 @@ Rather than directly calling isNonEmpty in the greet function, we'll pass it in 
 
 ```
     func greet(name: String,
-               isNonEmpty: (String) -> Bool = { $0.isNonEmpty() == false })
+               isNonEmpty: (String) -> Bool = { $0.isNonEmpty() })
         throws -> String {
             guard isNonEmpty(name) else { throw GreetingError.invalidName }
             return "Welcome, \(name)! Have you seen the specials on offer?"
