@@ -1,6 +1,6 @@
 ---
 permalink: /autoresizing-masks/
-title: "AutoResizing Masks and You"
+title: "Autoresizing Masks and You"
 ---
 
 You're an Autolayout Wizard. You know Interface Builder like the back of your hand. Then, one day, you create a simple UIView, add it as a subview with some elegantly crafted constraints, and.. it blows up in your face. What gives?
