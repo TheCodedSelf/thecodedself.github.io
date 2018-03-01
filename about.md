@@ -7,7 +7,7 @@ header_alignment: center
 
 <p style="margin-top:20px;text-align:center"><img alt="Keegan Rush iOS Software Developer" src="{{ site.url }}/assets/images/Keegan Rush Software Developer.png" height="300px" width="300px"/></p>
 
-I'm a software developer, currently specialising in **mobile app development**. I'm from Johannesburg, South Africa, and currently living in Poland. I **work remotely**. I'm lucky enough to get to work on iOS apps and provide guidance to other developers looking to get into Swift and iOS.
+I'm a freelance software developer, currently specialising in **mobile app development**. I'm from Johannesburg, South Africa, and currently living in Poland. I **work remotely**. I'm lucky enough to get to work on iOS apps and provide guidance to other developers looking to get into Swift and iOS.
 
 I've been a professional software developer since 2013 and hold a **B.Sc. in Computer Systems**. I started doing mobile app development in 2014, with the bulk of that in iOS.
 

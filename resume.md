@@ -18,32 +18,38 @@ header_alignment: center
     <li class="skill-5">Unit Testing</li>
     <li class="skill-5">Objective-C</li>
     <li class="skill-5">RxSwift</li>
-    <li class="skill-5">Code Reviews</li>
-    <li class="skill-5">Bamboo CI</li>
-    <li class="skill-5">Jekyll Static Site Generation</li>
-    <li class="skill-5">Jira</li>
+    <li class="skill-4">Javascript</li>
+    <li class="skill-4">React Native</li>
     <li class="skill-4">Architecture Design</li>
     <li class="skill-4">Functional Programming</li>
     <li class="skill-4">Core Data</li>
     <li class="skill-4">UI Testing</li>
     <li class="skill-4">Mentoring and Teaching</li>
     <li class="skill-4">OAuth 2.0</li>
+    <li class="skill-3">Node.js</li>
+    <li class="skill-3">Vue.js</li>
     <li class="skill-3">Android Development</li>
     <li class="skill-3">C#</li>
     <li class="skill-3">Python</li>
     <li class="skill-3">Bash</li>
-    <li class="skill-3">LaTex</li>
+    <li class="skill-3">LaTeX</li>
     <li class="skill-3">HTML/CSS</li>
     <li class="skill-2">Java</li>
-    <li class="skill-1">Javascript</li>
   </ul>
 </div>
 
 # Work History
 
+<h2 class="rightAlignedHeader">Freelance Software Developer</h2>
+<h4 class="rightAlignedHeader"> (March 2018 - Present)</h4>
+<p style="clear:both;">
+As a cross-platform iOS and Android developer, I build flawless, valuable apps with React Native, Swift, and Kotlin. I also build backends in Node.js, as well as web apps in Vue and React.
+</p>
+I work closely with my clients to provide them with the ideal solution for their business needs.
+
 ![Intermediate Software Engineer at Entelect]({{ site.url }}/assets/images/Resume/EntelectLogo.jpg){: .align-left}
 <h2 class="rightAlignedHeader">Entelect</h2>
-<h4 class="rightAlignedHeader"> Intermediate Software Engineer (Apr 2016 - Present)</h4>
+<h4 class="rightAlignedHeader"> Intermediate Software Engineer (Apr 2016 - Feb 2018)</h4>
 <p style="clear:both;">
 I worked on a major South African bank's iOS app using Objective-C, Swift, and the RxSwift framework.
 </p>
