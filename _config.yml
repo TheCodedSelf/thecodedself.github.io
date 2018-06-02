@@ -87,7 +87,7 @@ author:
   name             : *var_name
   avatar           : "/assets/images/Keegan Rush Software Developer.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : *var_description
-  location         : "Poland"
+  location         : "Poznań, Poland"
   email            : "keeganrush@gmail.com"
   uri              :
   bitbucket        :
