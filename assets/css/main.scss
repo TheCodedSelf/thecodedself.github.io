@@ -31,6 +31,16 @@
 /* Magnific Popup - responsive lightbox */
 @import "vendor/magnific-popup/magnific-popup"; // Magnific Popup
 
+/* gist */
+body .gist .blob-num {
+    border: none;
+}
+
+body .gist .gist-meta {
+    display: none;
+}
+/* end gist */
+
 .rightAlignedHeader {
     margin-top: 0px;
     margin-bottom: 0px;
