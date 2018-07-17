@@ -34,7 +34,7 @@ NSLayoutConstraint.activate([
   ])
 ```
 
-Position the button where you need it. For the purposes of this demo, I'm leaving it right in the middle of the parent view. For the reasoning behind `actionButton.translatesAutoresizingMaskIntoConstraints = false`, take a look at my post on [Autoresizing masks](http://www.thecodedself.com/autoresizing-masks/).
+Position the button where you need it. For the purposes of this demo, I'm leaving it right in the middle of the parent view. For the reasoning behind `actionButton.translatesAutoresizingMaskIntoConstraints = false`, take a look at my post on [autoresizing masks](http://www.thecodedself.com/autoresizing-masks/).
 
 We've created the button and positioned it in the view. This is the result:
 
