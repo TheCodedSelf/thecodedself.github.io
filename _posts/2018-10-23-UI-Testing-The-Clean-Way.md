@@ -6,8 +6,6 @@ I write software, and sometimes I write bugs. Sometimes I write a _lot_ of bugs.
 
 I do manual tests before I commit, I write unit tests as I write my code. Lately, I've also been getting into writing UI tests.
 
-I like UI testing because it reduces the tedious aspect of testing. Rather than spending a lot of time testing old features of my app that should still be working, I can just run my UI tests before shipping a new build. Manual testing is still needed, but UI tests make my job a lot easier.
-
 One critique of UI testing is how messy and brittle it can be. Building the tests can be complicated. You might spend hours on a test just for a design to change that breaks the test and ruins all your hard work.
 
 So, I want to tell you about some problems you might face in keeping your UI tests clean and readable, and how we can leverage Swift for this endeavour. 
@@ -171,7 +169,9 @@ Let's walk through it:
 ### 1. Finding the delete button
 First, we need a handle on the delete button of the View To-do screen. To access a UI element from the tests, you generally use its `accessibilityIdentifier` property. 
 
-We just look for a button with the `Accessibility.View.DeleteButton` identifier. I've created an `Accessibility` enum to hold the identifiers for our elements. It looks like this:
+Using the accessibilityIdentifier is something that recording your tests won't do. If you have a 'Submit' button for a form, then recorded tests will look for a button titled 'Submit'. If the button title changes, the tests will fail. Using the accessibilityIdentifier is a way to get a handle on the button even if something like its title changes.
+
+To find the delete button, we just look for a button with the `Accessibility.View.DeleteButton` identifier. I've created an `Accessibility` enum to hold the identifiers for our elements. It looks like this:
 
 ```swift
 enum Accessibility {
