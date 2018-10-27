@@ -40,12 +40,17 @@ header_alignment: center
 
 # Work History
 
-<h2 class="rightAlignedHeader">Freelance Software Developer</h2>
-<h4 class="rightAlignedHeader"> (March 2018 - Present)</h4>
+<h2 class="rightAlignedHeader">Capture Integration</h2>
+<h4 class="rightAlignedHeader"> (July 2018 - Present)</h4>
 <p style="clear:both;">
-As a cross-platform iOS and Android developer, I build flawless, valuable apps with React Native, Swift, and Kotlin. I also build backends in Node.js, as well as web apps in Vue and React.
+I am in charge of developing the ShotFlow macOS app written in Objective-C and Swift. I also provide assistance with the web frontend and wherever else is needed.
 </p>
-I work closely with my clients to provide them with the ideal solution for their business needs.
+
+<h2 class="rightAlignedHeader">Freelance Software Developer</h2>
+<h4 class="rightAlignedHeader"> (March 2018 - June 2018)</h4>
+<p style="clear:both;">
+I worked closely with clients to provide iOS, React Native, and Node.js solutions for their business needs. I also built roadmaps and provided consulting to clients while developing their mobile solutions.
+</p>
 
 ![Intermediate Software Engineer at Entelect]({{ site.url }}/assets/images/Resume/EntelectLogo.jpg){: .align-left}
 <h2 class="rightAlignedHeader">Entelect</h2>
