@@ -40,8 +40,9 @@ header_alignment: center
 
 # Work History
 
+![Software Developer at Capture Integration]({{ site.url }}/assets/images/Resume/CaptureIntegration.png){: .align-left}
 <h2 class="rightAlignedHeader">Capture Integration</h2>
-<h4 class="rightAlignedHeader"> (July 2018 - Present)</h4>
+<h4 class="rightAlignedHeader"> Software Developer (July 2018 - Present)</h4>
 <p style="clear:both;">
 I am in charge of developing the ShotFlow macOS app written in Objective-C and Swift. I also provide assistance with the web frontend and wherever else is needed.
 </p>
