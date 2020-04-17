@@ -54,7 +54,7 @@ Uses the following:
 - MapKit for the world map
 - Strava API for syncing activities
 - CoreLocation for activity tracking
-- In-App purchases for monetization
+- In-App Purchases for monetization
 
 # Zen Breath
 
@@ -70,7 +70,7 @@ An iOS client for a blog named Zen Habits. Written in Objective-C and published 
 Uses the following:
 - Core Data to store posts
 - Cocapods for third-party dependencies
-- In App Purchases and Google AdMob for monetisation
+- In-App Purchases and Google AdMob for monetization
 - Google Analytics to provide user insights
 
 <br/>
