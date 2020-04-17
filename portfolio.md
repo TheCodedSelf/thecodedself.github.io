@@ -3,6 +3,13 @@ layout: single
 title: Portfolio
 permalink: /portfolio/
 header_alignment: center
+gallery_traverse:
+  - url: /assets/images/Portfolio/traverse1.jpg
+    image_path: assets/images/Portfolio/traverse1.jpg
+    alt: "Traverse iOS App"
+  - url: /assets/images/Portfolio/traverse2.jpg
+    image_path: assets/images/Portfolio/traverse2.jpg
+    alt: "Traverse iOS App"
 gallery_zenbreath:
   - url: /assets/images/Portfolio/zenbreath1.jpg
     image_path: assets/images/Portfolio/zenbreath1.jpg
@@ -30,6 +37,24 @@ gallery_colorgame:
 ---
 
 <br/>
+
+# Traverse: Explore Your World
+
+{% include gallery id="gallery_traverse" %}
+
+<ul id="menu">
+  <li><a href="https://apps.apple.com/us/app/traverse-explore-your-world/id1369515409">App Store</a></li>
+  <li><a href="http://www.thecodedself.com/gettraverse/">Website</a></li>
+</ul>
+
+Traverse lets you collect your runs, cycles, and explorations on the world map. Tracking a new area reveals it on the map and lets you know where you still need to explore.
+
+Uses the following:
+- CoreGraphics for masking unexplored areas
+- MapKit for the world map
+- Strava API for syncing activities
+- CoreLocation for activity tracking
+- In-App purchases for monetization
 
 # Zen Breath
 
