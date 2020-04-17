@@ -43,11 +43,11 @@ gallery_colorgame:
 {% include gallery id="gallery_traverse" %}
 
 <ul id="menu">
-  <li><a href="https://apps.apple.com/us/app/traverse-explore-your-world/id1369515409">App Store</a></li>
-  <li><a href="http://www.thecodedself.com/gettraverse/">Website</a></li>
+  <li><a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/traverse-explore-your-world/id1369515409">App Store</a></li>
+  <li><a target="_blank" rel="noopener" href="http://www.thecodedself.com/gettraverse/">Website</a></li>
 </ul>
 
-Traverse lets you collect your runs, cycles, and explorations on the world map. Tracking a new area reveals it on the map and lets you know where you still need to explore.
+Traverse lets you collect your runs, cycles, and explorations on the world map. Tracking a new area reveals it on the map and lets you know where you still need to explore. Fully written in Swift.
 
 Uses the following:
 - CoreGraphics for masking unexplored areas
@@ -61,8 +61,8 @@ Uses the following:
 {% include gallery id="gallery_zenbreath" %}
 
 <ul id="menu">
-  <li><a href="https://itunes.apple.com/us/app/zen-breath/id1071857375?ls=1&mt=8">App Store</a></li>
-  <li><a href="https://github.com/TheCodedSelf/zen-habits-reader">GitHub</a></li>
+  <li><a target="_blank" rel="noopener" href="https://itunes.apple.com/us/app/zen-breath/id1071857375?ls=1&mt=8">App Store</a></li>
+  <li><a target="_blank" rel="noopener" href="https://github.com/TheCodedSelf/zen-habits-reader">GitHub</a></li>
 </ul>
 
 An iOS client for a blog named Zen Habits. Written in Objective-C and published to the iOS App Store.
@@ -80,8 +80,8 @@ Uses the following:
 {% include gallery id="gallery_hushtime" %}
 
 <ul id="menu">
-  <li><a href="{{ site.url }}/Hush-Time">Website</a></li>
-  <li><a href="https://github.com/TheCodedSelf/Hush-Time">GitHub</a></li>
+  <li><a target="_blank" rel="noopener" href="{{ site.url }}/Hush-Time">Website</a></li>
+  <li><a target="_blank" rel="noopener" href="https://github.com/TheCodedSelf/Hush-Time">GitHub</a></li>
 </ul>
 
 A macOS app written in Swift. Select the apps you'd like to close, choose a duration for your focused block of time, and hit Start.
@@ -96,7 +96,7 @@ Uses the following:
 # SwiftCron
 
 <ul id="menu">
-  <li><a href="https://github.com/TheCodedSelf/SwiftCron">GitHub</a></li>
+  <li><a target="_blank" rel="noopener" href="https://github.com/TheCodedSelf/SwiftCron">GitHub</a></li>
 </ul>
 
 An open-sourced cron expression parser library written in Swift. Cron expressions are a highly flexible means of scheduling tasks to run periodically at fixed times, dates, or intervals. 
@@ -115,7 +115,7 @@ Uses the following:
 {% include gallery id="gallery_colorgame" %}
 
 <ul id="menu">
-  <li><a href="https://github.com/TheCodedSelf/Color-Game">GitHub</a></li>
+  <li><a target="_blank" rel="noopener" href="https://github.com/TheCodedSelf/Color-Game">GitHub</a></li>
 </ul>
 
 An iOS game demonstrating the [Stroop Effect](https://en.wikipedia.org/wiki/Stroop_effect) written in Swift. The name of a color flashes on the screen, printed in a different color (e.g. the word "Green", but colored "Red"). The user taps a button corresponding to the *color of the word* (Red). The rounds get faster with each win, so stay sharp.

@@ -48,10 +48,10 @@ header_alignment: center
 
 ![Software Developer at Capture Integration]({{ site.url }}/assets/images/Resume/CaptureIntegration.png){: .align-left}
 <h2 class="rightAlignedHeader">Capture Integration</h2>
-<h4 class="rightAlignedHeader">Software Developer (March 2018 - Present)</h4>
+<h4 class="rightAlignedHeader">iOS & macOS Developer (March 2018 - Present)</h4>
 <i class="rightAlignedHeader">Remote</i>
 <p style="clear:both;">
-An entirely remote position for a US-based company. Created and maintained the ShotFlow Samples & Styling iOS app. Took control of development of the ShotFlow Capture macOS app. Contributed to web development, and aided in recruiting of a dedicated web developer. Served as JIRA administrator and self-declared scrum master.
+A remote position for a US-based company as the sole iOS and macOS developer. Created and maintained the ShotFlow Samples & Styling iOS app. Took control of development of the ShotFlow Capture macOS app. Contributed to web development, and aided in recruiting of a dedicated web developer. Served as JIRA administrator and self-declared scrum master.
 </p>
 
 <h2 class="rightAlignedHeader">Freelance Software Developer</h2>
@@ -97,7 +97,7 @@ While I was studying for my degree, I worked at K2 to gain experience. I worked 
 <h2 class="rightAlignedHeader">Heriot-Watt University</h2>
 <h4 class="rightAlignedHeader">Bachelor of Science in Computer Systems (2014)</h4>
 <p style="clear:both;">
-My degree was obtained through Heriot-Watt University based in Edinburgh, Scotland. I attended remotely via <a href="https://www.cti.ac.za/">CTI Education Group</a>.
+My degree was obtained through Heriot-Watt University based in Edinburgh, Scotland. I attended remotely via <a target="_blank" rel="noopener" href="https://www.cti.ac.za/">CTI Education Group</a>.
 </p>
 
 Some of my favourite courses were Software Engineering, Database Design Concepts, Operations Management, Knowledge Management, Program Design, and Hardware Essentials.
