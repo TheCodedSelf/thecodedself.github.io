@@ -7,7 +7,7 @@
 
 # Site Settings
 var_name: &var_name "Keegan Rush"
-var_description: &var_description "A developer that strives to write clean, maintainable software that enables businesses to create revenue and solve problems. Keegan specializes in mobile app development and loves experimenting with different tech, different platforms, and different ways of thinking."
+var_description: &var_description "A software developer that strives to write clean software that enables businesses to solve problems. Keegan specializes in all things Apple, especially iOS. He loves experimenting with different tech and different ways of thinking."
 locale                   : "en"
 title                    : "The Coded Self"
 title_separator          : "-"
