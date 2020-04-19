@@ -10,10 +10,10 @@ header:
   image: assets/images/WorkWithMe/header.png
 ---
 
-Are you looking for a professional software developer that can give you high-quality work when you need it? Work with me and I'll transform your idea into a smooth, bug-free, working application.
+Are you looking for a **professional software developer** that does quality work on time? Work with me and I'll transform your idea into a smooth, bug-free, working application.
 
 ### Years of experience 
-I have been a professional software developer for long enough to know that it's about more than just code. My goal is to build the product that will make sense for you and your customers.
+I have been **building mobile apps** for long enough to know that it's about more than just code. My goal is to build the product that will make sense for you and your customers.
 
 ### Testimonials
 
