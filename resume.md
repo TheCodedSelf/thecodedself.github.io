@@ -21,7 +21,7 @@ header_alignment: center
     <li class="skill-5">Git</li>
     <li class="skill-5">Core Data</li>
     <li class="skill-5">JIRA</li>
-    <li class="skill-5">Agile Methologies</li>
+    <li class="skill-5">Agile</li>
     <li class="skill-4">Continuous Integration</li>
     <li class="skill-4">RxSwift</li>
     <li class="skill-4">Javascript</li>
@@ -30,15 +30,13 @@ header_alignment: center
     <li class="skill-4">Functional Programming</li>
     <li class="skill-4">UI Testing</li>
     <li class="skill-4">Mentoring & Teaching</li>
-    <li class="skill-4">OAuth 2.0</li>
+    <li class="skill-4">HTML/CSS</li>
     <li class="skill-3">SwiftUI</li>
     <li class="skill-3">Node.js</li>
     <li class="skill-3">Android</li>
     <li class="skill-3">C#</li>
-    <li class="skill-3">Python</li>
+    <li class="skill-2">Python</li>
     <li class="skill-3">Bash</li>
-    <li class="skill-3">LaTeX</li>
-    <li class="skill-3">HTML/CSS</li>
     <li class="skill-2">Java</li>
     <li class="skill-2">Vue.js</li>
   </ul>
