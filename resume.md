@@ -35,8 +35,8 @@ header_alignment: center
     <li class="skill-3">Node.js</li>
     <li class="skill-3">Android</li>
     <li class="skill-3">C#</li>
-    <li class="skill-2">Python</li>
     <li class="skill-3">Bash</li>
+    <li class="skill-2">Python</li>
     <li class="skill-2">Java</li>
     <li class="skill-2">Vue.js</li>
   </ul>
