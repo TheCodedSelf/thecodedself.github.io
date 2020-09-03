@@ -3,7 +3,7 @@ title: "Perfect is the Enemy of the Good"
 ---
 
 <h3 style="margin-top: 0px; color: #777777;">
-<em>How My Architecture Crippled Development</em>
+<em>How an Architecture Can Cripple Development</em>
 </h3>
 
 ---
